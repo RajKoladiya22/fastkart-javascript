@@ -1,0 +1,33 @@
+<style>
+    #mahadev{
+        color: rgb(211, 38, 245) !important ;
+    }
+</style>
+
+<p class="ans">Hello</p>
+<p class="ans">Hello red and white</p>
+<p class="ans">Hello How r u</p>
+
+<button onclick="clickBtn()">click</button>
+
+<script type="text/javascript">
+
+const clickBtn = () => {
+    let ans = document.getElementsByClassName('ans');
+   
+    for(let i in ans){
+        if(i==0){
+            ans[i].setAttribute('id','mahadev')
+            ans[i].innerHTML = "har har mahadev"
+            ans[i].style.color = "red";
+        }else if(i==1){
+            ans[i].style.color = "yellow";
+        }else{
+            ans[i].style.color = "green";
+        }
+        
+    }
+}
+    
+
+</script>
