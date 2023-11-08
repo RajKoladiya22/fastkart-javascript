@@ -39,5 +39,7 @@ const signUp = () => {
                 document.getElementById("password").value = "";   
         }else{
             alert("Please check Policy");
-        }  
+        } 
+        
+        //hii
 }
