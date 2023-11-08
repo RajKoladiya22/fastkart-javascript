@@ -41,5 +41,5 @@ const signUp = () => {
             alert("Please check Policy");
         } 
         
-        //hii
+        //hii  
 }
